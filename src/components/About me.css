@@ -1,0 +1,40 @@
+.abt-me-container{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-holder{
+    width: 50%;
+}
+
+
+.profile-image{
+    width: 60%;
+    border-radius: 100%;
+}
+
+.intro-holder{
+    width: 50%;
+    text-align: start;
+    
+}
+
+.title{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 60px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.text-presentation{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 5px; 
+    letter-spacing: normal;
+}

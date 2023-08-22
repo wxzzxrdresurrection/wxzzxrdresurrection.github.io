@@ -1,0 +1,25 @@
+.parent-container{
+    width: 100%;
+    position: fixed;
+    background-color: #434140;
+    padding: 5px
+}
+
+.link-box{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px 0;
+    color: #ffff;
+}
+
+.link{
+    font-family: 'Roboto', monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0 20px;
+    text-transform: capitalize;
+}
+
+.link:hover{
+    cursor: pointer;
+}
