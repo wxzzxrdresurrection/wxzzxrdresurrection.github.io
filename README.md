@@ -409,7 +409,7 @@ Or follow the steps below:
 
 ## Contributing
 
-[GitHub Repository](https://github.com/vito8916/REPO)
+[GitHub Repository](https://github.com/vito8916/simple-portfolio.git)
 
 Contributions are welcome! Please submit a pull request or open an issue to discuss changes.
 

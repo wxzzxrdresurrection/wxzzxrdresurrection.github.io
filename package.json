@@ -1,14 +1,14 @@
 {
-  "name": "astro-s-portfolio",
+  "name": "astro-simple-portfolio",
   "type": "module",
   "version": "0.0.1",
-  "description": "Simple Portfolio built with Astro, React, TailwindCSS, ShadCN and TypeScript.",
+  "description": "free and open-source portfolio template site built with Astro.",
   "license": "MIT",
   "private": true,
   "author": {
-    "name": "vicbox"
+    "name": "Victor Alvarado"
   },
-  "homepage": "https://simple-portfolio.vicbox.dev",
+  "homepage": "https://vicbox.dev/projects/simple-portfolio",
   "contributors": [
     {
       "name": "Victor Alvarado",
@@ -17,7 +17,7 @@
     }
   ],
   "keywords": [
-    "JavaScript",
+    "portfolio",
     "Astro",
     "react",
     "tailwindcss",

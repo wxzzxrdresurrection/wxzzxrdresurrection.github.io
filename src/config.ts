@@ -8,7 +8,7 @@ export const SITE = {
     logoText: "SPortfolio",
     lang: "en",
     favicon: "/favicon.png",
-    repository: "https://github.com/simple-portfolio/",
+    repository: "https://github.com/vito8916/simple-portfolio.git",
     author: "Victor Alvarado",
     profile: "https://victoralvarado.dev/",
 }
