@@ -104,37 +104,88 @@ Those sections are arrays of objects that contain the following properties:
 
 #### SITE
 
-- `website`: The URL of your site.
-- `title`: The title of your site.
-- `description`: A brief description of your site.
-- `tags`: Keywords related to your site.
-- `ogImage`: The image used when sharing your site on social media. Rename your image to `og-image.webp` and place it in
-  the `public` directory.
-- `logo`: The logo used for your site. You should replace with the name of the image you want to use (PNG). Rename your
-  image to `logo.png` and place it in the `public` directory.
-- `logoText`: The text used for the logo.
-- `lang`: The language of your site.
-- `favicon`: The icon used for your site. You should replace with your favicon image in PNG. Rename your image to
-  `favicon.png` and place it in the `public` directory.
-- `repository`: The URL of the repository for your site.
-- `author`: The author of the site.
-- `profile`: The url of the online profile of the author.
+table explaining the properties of each object:
+
+| Property    | Type   | Description                                            |
+|-------------|--------|--------------------------------------------------------|
+| website     | string | The URL of your site.                                  |
+| title       | string | The title of your site.                                |
+| description | string | A brief description of your site.                      |
+| tags        | string | Keywords related to your site.                         |
+| ogImage     | string | The image used when sharing your site on social media. |
+| logo        | string | The logo used for your site.                           |
+| logoText    | string | The text used for the logo.                            |
+| lang        | string | The language of your site.                             |
+| favicon     | string | The icon used for your site.                           |
+| repository  | string | The URL of the repository for your site.               |
+| author      | string | The author of the site.                                |
+| profile     | string | The url of the online profile of the author.           |
+
+#### Example:
+
+```typescript
+export const SITE = {
+    website: "https://vicbox.dev/projects/simple-portfolio", // replace this with your deployed domain
+    title: "Simple Portfolio",
+    description: "A simple but beautiful portfolio created with Astro",
+    tags: ["portfolio", "Resume cv", "Astro"],
+    ogImage: "/og-image.webp",
+    logo: "logo",
+    logoText: "SPortfolio",
+    lang: "en",
+    favicon: "/favicon.png",
+    repository: "https://github.com/vito8916/simple-portfolio.git",
+    author: "Victor Alvarado",
+    profile: "https://victoralvarado.dev/",
+}
+````
+
+---
 
 #### ME
 
-- `name`: Your name.
-- `profession`: Your profession.
-- `profileImage`: The image used for your profile. You should replace with the name of the image you want to use (PNG).
-  Put your image in the `src/assets/` directory.
-- `profileFacts`: An array of objects with the following properties:
-    - `description`: The description of the fact.
-    - `value`: The value of the fact. Should be a number.
-- `about`: A brief description about you.
-- `contactInfo`: An array of objects with the following properties:
-    - `email`: Your email address where you want to receive messages.
-    - `linkedin`: Your LinkedIn profile URL.
-    - `resumeDoc`: The URL of your resume in PDF format. Rename your resume to `resume.pdf` and place it in the `public`
-      directory.
+table explaining the properties of each object:
+
+| Property     | Type   | Description                                                             |
+|--------------|--------|-------------------------------------------------------------------------|
+| name         | string | Your name.                                                              |
+| profession   | string | Your profession.                                                        |
+| profileImage | string | The image used for your profile.                                        |
+| profileFacts | object | An array of objects with the description and value of the fact.         |
+| about        | string | A brief description about you.                                          |
+| contactInfo  | object | An array of objects with the email, linkedin, and resumeDoc properties. |
+
+#### Example:
+
+```typescript
+export const ME = {
+    name: "John Doe",
+    profession: "Software Engineer | Full Stack Developer",
+    profileImage: "pp.png",
+    profileFacts: [
+        {
+            value: 10,
+            description: "Years of Experience"
+        },
+        {
+            value: 5,
+            description: "Completed Projects"
+        },
+        {
+            value: 4,
+            description: "Satisfied Clients"
+        }
+    ],
+    contactInfo: {
+        email: "vicbox.dev@vicbox.dev",
+        linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
+        resumeDoc: "resume.pdf",
+    },
+    aboutMe: "I am a software engineer with a passion for web development. I have experience in building web " + "applications using modern technologies. I am a self-taught developer who enjoys learning new things and " + "sharing knowledge with others.",
+}
+````
+
+---
 
 #### SOCIAL
 
