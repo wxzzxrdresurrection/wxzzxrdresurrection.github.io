@@ -12,7 +12,7 @@ This project leverages **Astro v5-beta**, incorporating the latest features that
 
 ## 🔥 DEMO
 
-- [VIEW DEMO](https://vicbox.dev/projects/simple-portfolio)
+- [VIEW DEMO](https://simple-portfolio.vicbox.dev)
 
 ### Features
 
