@@ -3,7 +3,7 @@
 Is a free and open-source portfolio template built with Astro. It's a great starting point for building your own
 portfolio site.
 
-This project leverages **Astro v5-beta**, incorporating the latest features that Astro has to offer.
+This project leverages **Astro v5**, incorporating the latest features that Astro has to offer.
 <p  style="text-align: center;">
   <img style="display: block; margin: 0 auto;" alt="Simple Portfolio Cover preview" src="https://firebasestorage.googleapis.com/v0/b/biography-fa3a3.appspot.com/o/Cover2.webp?alt=media&token=1cd30f91-5738-4d51-bd51-c52fb76152ba"/>
 </p>
@@ -15,8 +15,9 @@ This project leverages **Astro v5-beta**, incorporating the latest features that
 - [VIEW DEMO](https://simple-portfolio.vicbox.dev)
 
 ### Features
+**Now upgraded to Astro v5**: the latest release of Astro.
 
-- **Astro v5-beta**: Utilizes the latest features of Astro for a fast and optimized static site.
+- **Astro v5**: Utilizes the latest features of Astro for a fast and optimized static site.
 - **Tailwind CSS**: Includes Tailwind CSS for easy and efficient styling.
 - **ShadCN**: Implements ShadCN components for a modern and cohesive design system.
 - **TypeScript**: Written in TypeScript for type safety and better developer tooling.
