@@ -1,6 +1,6 @@
 # Astro Simple Portfolio
 
-Is a free and open-source portfolio template site built with Astro. It's a great starting point for building your own
+Is a free and open-source portfolio template built with Astro. It's a great starting point for building your own
 portfolio site.
 
 This project leverages **Astro v5-beta**, incorporating the latest features that Astro has to offer.
@@ -432,7 +432,7 @@ module.exports = {
 
 ## Deployment
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/vito8916/REPO#NODE_VERSION=20)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/vito8916/simple-portfolio.git#NODE_VERSION=20)
 
 Or follow the steps below:
 
