@@ -1,6 +1,4 @@
 import {Tabs, TabsContent, TabsList, TabsTrigger} from "./ui/tabs.tsx";
-import React from "react";
-
 
 const TabsButtons = (props:any) => {
     return (

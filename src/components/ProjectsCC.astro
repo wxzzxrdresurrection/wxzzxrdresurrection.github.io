@@ -1,7 +1,11 @@
 ---
-import ProjectCard from "./ProjectCard.astro";
+// astro imports
 import {getCollection} from "astro:content";
+
+// components imports
+import ProjectCard from "./ProjectCard.astro";
 import { Button } from "./ui/button";
+
 const allProjects = await getCollection('projects');
 ---
 
