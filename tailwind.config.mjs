@@ -29,9 +29,9 @@ export default {
 				'dark-theme': '#0C151D',
 				'primary-dark': '#FFE071',
 				'primary-hover-dark': '#FBD144',
-				'text-dark': '#d7d9da',
 
 				// Neutrals
+				'n200': '#d7d9da',
 				'n900': '#222222',
 				'n700': '#171F26',
 				'n500': '#555555',
