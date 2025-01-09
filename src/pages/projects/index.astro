@@ -10,21 +10,23 @@ interface Project {
         summary: string;
         tags: string[];
         cover: ImageMetadata;
+        startDate: Date;
     };
 }
 
-const allProjects = await getCollection('projects');
+const allProjects = (await getCollection('projects'))
+    .sort((a, b) => b.data.startDate.getTime() - a.data.startDate.getTime());
 ---
 
-<Layout title="John Doe | Portfolio | My Projects" description="A list of my best projects" scrollSmooth={false}>
-    <main class="container py-24 flex gap-8 flex-col" role="main">
+<Layout title="VicBox Dot Dev | Portfolio | My Projects" description="A list of my best projects" scrollSmooth={false}>
+    <>
         <!--Projects Section-->
         <section class="border-bottom">
             <div class="mb-4">
                 <h2 class="text-3xl font-bold mb-8">All My Projects</h2>
             </div>
         </section>
-
+        <!--Projects List-->
         <section class="flex flex-col gap-8">
             {allProjects.length > 0 ? (
                 allProjects.map((project: Project) => (
@@ -39,5 +41,5 @@ const allProjects = await getCollection('projects');
                     <p>No projects found.</p>
             )}
         </section>
-    </main>
+    </>
 </Layout>

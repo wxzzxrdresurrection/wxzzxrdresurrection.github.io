@@ -8,14 +8,14 @@ import AboutMeCC from "../components/AboutMeCC.astro";
 import ProfileFacts from "../components/ProfileFacts.astro";
 ---
 
-<Layout title="John Doe | Portfolio | Home" scrollSmooth={false}>
-	<main class="container py-24 flex gap-8 flex-col">
-		<ProfileInfo />
-		<ProfileFacts />
-		<ProfileActionButton />
-		<TabsButtons client:idle >
-			<ProjectsCC slot="portfolio" />
-			<AboutMeCC slot="about" />
-		</TabsButtons>
-	</main>
+<Layout title="VicBox Dot Dev | Portfolio" description="A simple portfolio created with Astro." scrollSmooth={false}>
+    <>
+        <ProfileInfo/>
+        <ProfileFacts/>
+        <ProfileActionButton/>
+        <TabsButtons client:idle>
+            <ProjectsCC slot="portfolio"/>
+            <AboutMeCC slot="about"/>
+        </TabsButtons>
+    </>
 </Layout>

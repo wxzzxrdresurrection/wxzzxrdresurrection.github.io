@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title={`404 Not Found |`} description="We're sorry, but the page you're looking for cannot be found. Please check the URL or return to the homepage." scrollSmooth={false}>
-    <main class="container main flex justify-center items-center" role="main">
+    <>
         <div class="not-found-wrapper">
             <span aria-hidden="true" role="img" aria-label="Shrug Emoji">¯\_(ツ)_/¯</span>
             <h1>404</h1>
@@ -12,7 +12,7 @@ import Layout from "../layouts/Layout.astro";
                 Go back home
             </a>
         </div>
-    </main>
+    </>
 </Layout>
 
 <style>
