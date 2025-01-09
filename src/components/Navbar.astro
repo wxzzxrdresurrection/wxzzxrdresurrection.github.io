@@ -63,7 +63,7 @@ const pathname = Astro.url.pathname;
         dark:text-primary-dark
         dark:bg-dark-theme
 
-        md:dark:text-primary-light
+        md:dark:text-primary-dark
         md:dark:bg-transparent
     }
 </style>
@@ -75,7 +75,6 @@ const pathname = Astro.url.pathname;
         const navbar = document.getElementById('navbar-sticky');
 
         btnMenu?.addEventListener('click', function () {
-            console.log("CLICKED");
             navbar?.classList.toggle('hidden');
         });
     }
