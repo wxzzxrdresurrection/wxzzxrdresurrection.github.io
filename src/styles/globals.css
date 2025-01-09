@@ -33,7 +33,7 @@ main {
 /* Dark mode customization */
 @media (prefers-color-scheme: dark) {
     .prose {
-        color: theme('colors.text-dark');
+        color: theme('colors.n200');
         --tw-prose-headings: theme('colors.light-theme');
         --tw-prose-p: theme('colors.light-theme');
         --tw-prose-a: theme('colors.primary-dark');
