@@ -5,7 +5,7 @@ export const SITE = {
     tags: ["portfolio", "Resume cv", "Astro"],
     ogImage: "/og-image.webp",
     logo: "logo",
-    logoText: "SPortfolio",
+    logoText: "Portfolio",
     lang: "en",
     favicon: "/favicon.png",
     repository: "https://github.com/vito8916/simple-portfolio.git",
@@ -14,9 +14,9 @@ export const SITE = {
 }
 
 export const ME = {
-    name: "John Doe",
+    name: "VicBox Dot Dev",
     profession: "Software Engineer | Full Stack Developer",
-    profileImage: "pp.png",
+    profileImage: "pp2.png",
     profileFacts: [
         {
             value: 10,
