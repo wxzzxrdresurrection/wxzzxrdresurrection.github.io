@@ -36,6 +36,7 @@ design: [Simple Resume Portfolio](https://www.figma.com/community/file/121301068
 - [Project Structure](#project-structure)
 - [Customization](#customization-and--styling)
 - [Deployment](#deployment)
+- [Changelog](#changelog)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -417,7 +418,7 @@ module.exports = {
             'dark-theme': '#0C151D', // Background color for dark mode
             'primary-dark': '#FFE071', // Primary color for dark mode
             'primary-hover-dark': '#FBD144', // Primary hover color for dark mode
-            'text-dark': '#d7d9da', // Text color for dark mode
+            'n200': '#d7d9da', // Text color for dark mode
 
             // Neutrals
             'n900': '#222222', // this is the color for the Navbar and other elements
@@ -459,6 +460,21 @@ Or follow the steps below:
 
 ---
 
+## Changelog
+
+### v1.0.0
+
+- Upgraded from Astro v5 beta to v5 stable.
+- Initial release with Astro v5.
+
+### v1.1.0
+
+- Added Blog feature. Now you can add your blog posts in the `src/content/posts` directory.
+- Added a changelog section to the README file.
+- Refactored Layout component and other pages.
+- Added two example blog post that help you how to change some things in this template.
+
+---
 ## Contributing
 
 [GitHub Repository](https://github.com/vito8916/simple-portfolio.git)
