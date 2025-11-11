@@ -17,7 +17,7 @@ export const ME = {
   profileImage: "pp2.jpeg",
   profileFacts: [
     {
-      value: 2, description: "Years of Experience"
+      value: 2, description: "Años de Experiencia"
     }
   ],
   contactInfo: {
