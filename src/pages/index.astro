@@ -9,13 +9,14 @@ import ProfileFacts from "../components/ProfileFacts.astro";
 ---
 
 <Layout title="Luis Zapata | Portfolio" description="A simple portfolio created with Astro." scrollSmooth={false}>
-    <>
-        <ProfileInfo/>
-        <ProfileFacts/>
-        <ProfileActionButton/>
-        <TabsButtons client:idle>
-          <AboutMeCC slot="about"/>
-          <ProjectsCC slot="portfolio"/>
-        </TabsButtons>
-    </>
+
+  <ProfileInfo />
+  <ProfileFacts />
+  <ProfileActionButton />
+
+  <TabsButtons client:idle>
+    <AboutMeCC slot="about" />
+    <ProjectsCC slot="portfolio" />
+  </TabsButtons>
+
 </Layout>
