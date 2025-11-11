@@ -12,16 +12,14 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://simple-portfolio.vicbox.dev/',
+    site: 'https://wxzzxrdresurrection.github.io/',
     integrations: [mdx(), react(), tailwind({
         applyBaseStyles: false,
     }), icon(), sitemap()],
     markdown: {
-        shikiConfig: {
-            theme: 'plastic',
-            wrap: true,
-        },
-    },
-    experimental: {
-        svg: true,
-    }});
+      shikiConfig: {
+          theme: 'plastic',
+          wrap: true,
+      },
+    }
+  });
