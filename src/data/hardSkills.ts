@@ -6,24 +6,24 @@ interface HardSkill {
 
 const hardSkills: HardSkill[] = [
   {
-    name: "AstroJs",
-    description: "My favorite static site generator for building modern websites",
-    icon: "astro_dark"
+    name: "Laravel",
+    description: "Mi framework preferido para desarrollo backend con PHP",
+    icon: "laravel"
   },
   {
-    name: "NextJs",
-    description: "My favorite React framework for building modern web apps",
-    icon: "nextjs_icon_dark"
+    name: "VueJS",
+    description: "El framework con el que mas experiencia tengo para construir interfaces de usuario",
+    icon: "vue"
   },
   {
-    name: "NodeJs",
-    description: "I've been using NodeJs for backend development since 2018",
-    icon: "nodejs"
+    name: "MySQL",
+    description: "He usado MySQL en varios proyectos para gestionar bases de datos relacionales desde 2021",
+    icon: "mysql"
   },
   {
-    name: "MongoDB",
-    description: "My favorite database for modern apps",
-    icon: "mongodb"
+    name: "Ruby on Rails",
+    description: "Mi mas reciente experiencia ha sido con Ruby on Rails",
+    icon: "rails"
   }
 ];
 
