@@ -1,79 +1,37 @@
 export const SITE = {
-    website: "https://simple-portfolio.vicbox.dev", // replace this with your deployed domain
-    title: "Simple Portfolio",
-    description: "A simple but beautiful portfolio created with Astro",
-    tags: ["portfolio", "Resume cv", "Astro"],
-    ogImage: "/og-image.webp",
-    logo: "logo",
-    logoText: "Portfolio",
-    lang: "en",
-    favicon: "/favicon.png",
-    repository: "https://github.com/vito8916/simple-portfolio.git",
-    author: "Victor Alvarado",
-    profile: "https://victoralvarado.dev/",
+  website: "https://simple-portfolio.vicbox.dev",
+  title: "Simple Portfolio",
+  description: "A simple but beautiful portfolio created with Astro",
+  tags: ["portfolio", "Resume cv", "Astro"],
+  ogImage: "/og-image.webp",
+  logo: "logo",
+  logoText: "Portfolio",
+  lang: "en",
+  favicon: "/favicon.png",
+  repository: "https://github.com/vito8916/simple-portfolio.git",
+  author: "Victor Alvarado", profile: "https://victoralvarado.dev/",
 }
-
 export const ME = {
-    name: "VicBox Dot Dev",
-    profession: "Software Engineer | Full Stack Developer",
-    profileImage: "pp2.png",
-    profileFacts: [
-        {
-            value: 10,
-            description: "Years of Experience"
-        },
-        {
-            value: 5,
-            description: "Completed Projects"
-        },
-        {
-            value: 4,
-            description: "Satisfied Clients"
-        }
-    ],
-    contactInfo: {
-        email: "vicbox.dev@vicbox.dev",
-        linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
-        resumeDoc: "resume.pdf",
-    },
-    aboutMe: "I am a software engineer with a passion for web development. I have experience in building web " + "applications using modern technologies. I am a self-taught developer who enjoys learning new things and " + "sharing knowledge with others.",
-}
-
-export const SOCIALS = [
+  name: "Luis Angel Zapata",
+  profession: "Ingeniero en Desarrollo y Gestión de Software | Desarrollador Full Stack",
+  profileImage: "pp2.jpeg",
+  profileFacts: [
     {
-        name: "Twitter",
-        url: "https://twitter.com/vicbox.dev",
-        icon: "twitter-x-fill",
-        show: true
-    },
-    {
-        name: "Facebook",
-        url: "https://www.facebook.com/vicbox.dev",
-        icon: "facebook-fill",
-        show: false
-    },
-    {
-        name: "Instagram",
-        url: "https://www.instagram.com/vicbox.dev",
-        icon: "instagram-fill",
-        show: true
-    },
-    {
-        name: "Youtube",
-        url: "https://www.youtube.com/vicbox.dev",
-        icon: "youtube-fill",
-        show: true
-    },
-    {
-        name: "TikTok",
-        url: "https://tiktok.com/vicbox.dev",
-        icon: "tik-fill",
-        show: false
-    },
-    {
-        name: "GitHub",
-        url: "https://github.com/vicbox.dev",
-        icon: "github-fill",
-        show: true
+      value: 2, description: "Years of Experience"
     }
+  ],
+  contactInfo: {
+    email: "dev.luis.zapata@gmail.com",
+    linkedin: "https://www.linkedin.com/in/luis-angel-zapata-zuniga-03aa2b268",
+    resumeDoc: "resume.pdf",
+  },
+  aboutMe: "Ingeniero en Desarrollo y Gestión de Software con experiencia en desarrollo web y aplicaciones multiplataforma. Experiencia con diferentes tecnologías modernas. Apasionado por crear soluciones innovadoras y eficientes que mejoren la experiencia del usuario. Siempre en busca de nuevos desafíos para crecer profesionalmente y contribuir al éxito de los proyectos en los que participo.",
+}
+export const SOCIALS = [
+  {
+    name: "GitHub",
+    url: "https://github.com/wxzzxrdresurrection",
+    icon: "github-fill",
+    show: true
+  }
 ]
